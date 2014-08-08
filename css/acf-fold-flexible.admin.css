@@ -1,0 +1,179 @@
+.foldicon {
+	-webkit-font-smoothing: antialiased;
+	font: normal 20px/1 'dashicons';
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.foldicon:not(.foldicon--expand) {
+	position: relative;
+	top: 1px;
+	left: 12px;
+}
+
+/**
+ * Field types
+ */
+.foldicon--image:after {
+    content: "\f128";
+}
+
+.foldicon--wysiwyg:after {
+    content: "\f206";
+}
+
+.foldicon--file:after {
+    content: "\f133";
+}
+
+.foldicon--full:after {
+	content: "\f214";
+}
+
+.foldicon--expand:before {
+	content: "\f502";
+}
+
+.foldicon--password:before {
+	content: "\f112";
+}
+
+.foldicon--text:before {
+	content: "\f215";
+}
+
+.foldicon--textarea:before {
+	content: "\f215";
+}
+
+.foldicon--number:before {
+	content: "0-9";
+	top: -4px;
+	position: relative;
+	font-size: .9em;
+}
+
+.foldicon--select:before {
+	content: "\f204";
+}
+
+.foldicon--checkbox:before {
+	content: "\f314";
+}
+
+.foldicon--radio:before {
+	content: "\f159";
+}
+
+.foldicon--true_false:before {
+	content: "\f147";
+}
+
+.foldicon--page_link:before {
+	content: "\f325";
+}
+
+.foldicon--post_object:before {
+	content: "\f324";
+}
+
+.foldicon--relationship:before {
+	content: "\f105";
+}
+
+.foldicon--taxonomy:before {
+	content: "\f323";
+}
+
+.foldicon--user:before {
+	content: "\f110";
+}
+
+.foldicon--google_map:before {
+	content: "\f231";
+}
+
+.foldicon--color_picker:before {
+	content: "\f309";
+}
+
+.foldicon--message:before {
+	content: "\f473";
+}
+
+.foldicon--calendar:before {
+	content: "\f145";
+}
+
+
+/**
+ * Fields group handles
+ */
+.acf-fc-layout-handle:hover {
+	background: #f2f2f2;
+}
+
+.acf-fc-layout-handle:hover .foldicon--expand:before {
+	color: #298CBA;
+}
+
+.foldicon--collapse:before {
+	content: "\f460";
+}
+
+.acf-fc-layout-handle.open .foldicon--expand:before {
+	content: "\f464";
+	color: #fff !important;
+}
+
+.acf-fc-layout-handle.open {
+	background: #298CBA;
+	color: #fff !important;
+}
+
+/**
+ * Tooltip
+ */
+
+ #tooltip {
+     text-align: center;
+     color: #fff;
+     background-color: #298CBA;
+     position: absolute;
+     z-index: 100;
+     padding: 6px 12px;
+     font-size: .8em;
+     text-transform: capitalize;
+ }
+
+ #tooltip:after {
+     width: 0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-top: 10px solid #298CBA;
+     content: '';
+     position: absolute;
+     left: 50%;
+     bottom: -10px;
+     margin-left: -10px;
+ }
+
+ #tooltip.top:after {
+     border-top-color: transparent;
+     border-bottom: 10px solid #298CBA;
+     top: -20px;
+     bottom: auto;
+ }
+
+ #tooltip.left:after {
+     left: 10px;
+     margin: 0;
+ }
+
+ #tooltip.right:after {
+     right: 10px;
+     left: auto;
+     margin: 0;
+ }
