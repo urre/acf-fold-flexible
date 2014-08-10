@@ -12,7 +12,7 @@ See [full gif](http://dropbox.urre.me/acf-fold-flexible.gif)
 + Displays icons using [Dashicons](http://melchoyce.github.io/dashicons) which fields each layout contains, supports all native ACF fields types
 
 ## Install
-1. Install plugin from WordPress plugin directory (out soon...)
+1. Install plugin from the [WordPress plugin directory](http://wordpress.org/plugins/acf-fold-flexible-content/)
 
 ## Install manually
 1. Upload the plugin to your plugins directory
