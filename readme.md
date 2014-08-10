@@ -16,7 +16,7 @@ See [full gif](http://dropbox.urre.me/acf-fold-flexible.gif)
 
 ## Install manually
 1. Download [zip](https://github.com/urre/acf-fold-flexible/archive/master.zip) and extract
-2. Rename the folder from`acf-fold-flexible-master` `to acf-fold-flexible`
+2. Rename the folder from `acf-fold-flexible-master` to `acf-fold-flexible`
 3. Upload the plugin to your plugins directory (/wp-content/plugins)
 4. Activate the plugin
 
