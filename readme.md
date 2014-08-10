@@ -15,18 +15,13 @@ See [full gif](http://dropbox.urre.me/acf-fold-flexible.gif)
 1. Install plugin from the [WordPress plugin directory](http://wordpress.org/plugins/acf-fold-flexible-content/)
 
 ## Install manually
-1. Upload the plugin to your plugins directory
-2. Activate the plugin
+1. Download [zip](https://github.com/urre/acf-fold-flexible/archive/master.zip) and extract
+2. Rename the folder from`acf-fold-flexible-master` `to acf-fold-flexible`
+3. Upload the plugin to your plugins directory (/wp-content/plugins)
+4. Activate the plugin
 
 ## Uninstall
 1. Deactivate plugin
-
-## Translation
-
-This plugin is available in the following languages:
-
-+ English
-+ Swedish
 
 ## Changelog
 

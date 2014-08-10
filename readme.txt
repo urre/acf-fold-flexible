@@ -6,7 +6,7 @@ Requires at least: 3.0
 Tested up to: 3.9.1
 Stable tag: 0.1
 
-A simple plugin for enhancing the ACF Flexible Content Field. Collapsed flexible content panels with helping icons representing each field type.
+A simple plugin for enhancing the ACF Flexible Content Field. Collapsed flexible content panels with helping icons representing each field types inside.
 
 == Description ==
 
