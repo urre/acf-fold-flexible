@@ -40,7 +40,7 @@
 					taxonomy: $(this).next().find('*[data-field_type="taxonomy"]').length,
 					user: $(this).next().find('*[data-field_type="user"]').length,
 					google_map: $(this).next().find('*[data-field_type="google_map"]').length,
-					calendar: $(this).next().find('*[data-field_type="calendar"]').length,
+					calendar: $(this).next().find('*[data-field_type="date_picker"]').length,
 					color_picker: $(this).next().find('*[data-field_type="color_picker"]').length,
 					message: $(this).next().find('*[data-field_type="message"]').length
 				};
