@@ -31,13 +31,6 @@ Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do 
 
 1. ACF Fold Flexible Content
 
-== Frequently Asked Questions ==
-
-This plugin is available in the following languages:
-
-* English
-* Swedish
-
 == Changelog ==
 
 = 0.1 =
