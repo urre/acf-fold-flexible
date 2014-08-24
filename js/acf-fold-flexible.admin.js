@@ -48,7 +48,7 @@
 				// Add corresponding icons
 				$.each(fieldtypes, function(fieldname, existance) {
 					if (existance > 0) {
-						group.append('<i rel="tooltip" title="' + fieldname + '" class="foldicon foldicon--' + fieldname + '"></i>');
+						group.append('<i rel="tooltip" title="' + fieldname.replace(/_/g, " ") + '" class="foldicon foldicon--' + fieldname + '"></i>');
 					}
 				});
 
