@@ -25,5 +25,5 @@ See [full gif](http://dropbox.urre.me/acf-fold-flexible.gif)
 
 ## Changelog
 
-0.15 Field type tooltips: replace underscores with spaces
-0.1 First version released
++ 0.15: Field type tooltips: replace underscores with spaces
++ 0.1: First version released
