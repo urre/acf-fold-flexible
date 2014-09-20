@@ -3,7 +3,7 @@ Contributors: urre
 Donate link: http://urre.me/donate
 Tags: fields, acf, advanced custom fields, custom fields
 Requires at least: 3.0
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: 0.15
 
 A simple plugin for enhancing the ACF Flexible Content Field. Collapsed flexible content panels with helping icons representing each field types inside.
