@@ -23,6 +23,9 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 ## Uninstall
 1. Deactivate plugin
 
+## Todo
+- [ ] Support for Advanced Custom Fields PRO
+
 ## Changelog
 
 + 0.15: Field type tooltips: replace underscores with spaces
