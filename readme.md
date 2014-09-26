@@ -24,9 +24,11 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 1. Deactivate plugin
 
 ## Todo
-- [ ] Support for Advanced Custom Fields PRO
+- [x] Support for Advanced Custom Fields PRO
+- [ ] Support new ACF fields
 
 ## Changelog
 
++ 1.0: No longer beta. Added Support for Advanced Custom Fields PRO
 + 0.15: Field type tooltips: replace underscores with spaces
 + 0.1: First version released

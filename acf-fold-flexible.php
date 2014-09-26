@@ -2,8 +2,8 @@
 /*
 Plugin Name: ACF Fold Flexible Content
 Plugin URI: labs.urre.me/albumcoverfinder/
-Description: A simple plugin for enhancing the Advanced Custom Fields Flexible Content Field. Collapsed flexible content panels and showing icons representing each field type.
-Version: 0.1
+Description: A simple plugin for enhancing the Advanced Custom Fields Flexible Content Field. Shows collapsed panels initially, and representing icons for each field type.
+Version: 1.0
 Author: Urban Sanden
 Author URI: http://urre.me
 Author Email: hej@urre.me
