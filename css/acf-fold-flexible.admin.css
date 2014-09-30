@@ -54,6 +54,10 @@
 	font-size: .9em;
 }
 
+.foldicon--email:before {
+	content: "\f466";
+}
+
 .foldicon--select:before {
 	content: "\f204";
 }
@@ -104,6 +108,14 @@
 
 .foldicon--calendar:before {
 	content: "\f145";
+}
+
+.foldicon--url:before {
+	content: "\f319";
+}
+
+.foldicon--gallery:before {
+	content: "\f233";
 }
 
 

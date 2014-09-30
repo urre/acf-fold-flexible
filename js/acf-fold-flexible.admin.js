@@ -63,7 +63,13 @@
 					color_picker: $(this).next().find('*[data-field_type="color_picker"]').length,
 					color_picker_acfpro: $(this).next().find('*[data-type="color_picker"]').length,
 					message: $(this).next().find('*[data-field_type="message"]').length,
-					message_acfpro: $(this).next().find('*[data-type="message"]').length
+					message_acfpro: $(this).next().find('*[data-type="message"]').length,
+					email: $(this).next().find('*[data-field_type="email"]').length,
+					email_acfpro: $(this).next().find('*[data-type="email"]').length,
+					url: $(this).next().find('*[data-field_type="url"]').length,
+					url_acfpro: $(this).next().find('*[data-type="url"]').length,
+					gallery: $(this).next().find('*[data-field_type="gallery"]').length,
+					gallery_acfpro: $(this).next().find('*[data-type="gallery"]').length
 				};
 
 				// Add corresponding icons
