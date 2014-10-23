@@ -25,6 +25,8 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 
 ## Todo
 - [x] Support for Advanced Custom Fields PRO
+- [ ] Fix so icons line up in the same order as the fields inside
+- [ ] Change tooltip when fieldgroup is expanded
 - [ ] Support new ACF fields
 
 ## Changelog
