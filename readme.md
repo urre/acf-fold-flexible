@@ -16,7 +16,7 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 
 ## Install manually
 1. Download [zip](https://github.com/urre/acf-fold-flexible/archive/master.zip) and extract
-2. Rename the folder from `acf-fold-flexible-master` to `acf-fold-flexible`
+2. Rename the folder from `acf-fold-flexible-content-master` to `acf-fold-flexible-content`
 3. Upload the plugin to your plugins directory (/wp-content/plugins)
 4. Activate the plugin
 
@@ -28,6 +28,7 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 - [ ] Support new ACF fields
 
 ## Changelog
++ 1.0.2: Bug fix: the css and javascripts did not load correctly after 4.0. Now fixed.
 + 1.0.1: Added support for fields: Gallery, url and email
 + 1.0: No longer beta. Added Support for Advanced Custom Fields PRO
 + 0.15: Field type tooltips: replace underscores with spaces

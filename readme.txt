@@ -4,7 +4,7 @@ Donate link: http://urre.me/donate
 Tags: fields, acf, advanced custom fields, custom fields, collapse, expand, multiple, acfpro, PRO
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 A simple plugin for enhancing the ACF Flexible Content Field. Collapsed flexible content panels with helping icons representing each field types inside.
 
@@ -18,7 +18,7 @@ A simple plugin for enhancing the ACF Flexible Content Field. Collapsed flexible
 
 == Installation ==
 
-1. Upload the `acf-fold-flexible` folder to your `/wp-content/plugins/` directory
+1. Upload the `acf-fold-flexible-content` folder to your `/wp-content/plugins/` directory
 2. Activate the "ACF Fold Flexible Content" plugin in your WordPress administration interface
 3. Done!
 
@@ -32,6 +32,9 @@ Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do 
 1. ACF Fold Flexible Content
 
 == Changelog ==
+
+= 1.0.2 =
+Bug fix: the css and javascripts did not load correctly after 4.0. Now fixed.
 
 = 1.0.1 =
 Added support for fields: Gallery, url and email

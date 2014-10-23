@@ -3,7 +3,7 @@
 Plugin Name: ACF Fold Flexible Content
 Plugin URI: https://github.com/urre/acf-fold-flexible
 Description: A simple plugin for enhancing the Advanced Custom Fields Flexible Content Field. Shows collapsed panels initially, and representing icons for each field type.
-Version: 1.0.1
+Version: 1.0.2
 Author: Urban Sanden
 Author URI: http://urre.me
 Author Email: hej@urre.me
@@ -38,14 +38,14 @@ class ACFFoldFlexible {
 
     public function register_admin_styles() {
         if (is_admin()) {
-            wp_enqueue_style( 'acffoldflexible-plugin-styles', plugins_url( 'acf-fold-flexible/css/acf-fold-flexible.admin.css' ) );
+            wp_enqueue_style( 'acffoldflexible-plugin-styles', plugins_url( 'acf-fold-flexible-content/css/acf-fold-flexible.admin.css' ) );
         }
     }
 
     public function register_admin_scripts() {
 
-        wp_enqueue_script( 'acffoldflexible-admin-script', plugins_url( 'acf-fold-flexible/js/acf-fold-flexible.admin.js' ), array('jquery') );
-        wp_enqueue_script( 'acffoldflexible-tooltip', plugins_url( 'acf-fold-flexible/js/acf-fold-flexible.tooltip.js' ), array('jquery') );
+        wp_enqueue_script( 'acffoldflexible-admin-script', plugins_url( 'acf-fold-flexible-content/js/acf-fold-flexible.admin.js' ), array('jquery') );
+        wp_enqueue_script( 'acffoldflexible-tooltip', plugins_url( 'acf-fold-flexible-content/js/acf-fold-flexible.tooltip.js' ), array('jquery') );
 
     }
 
