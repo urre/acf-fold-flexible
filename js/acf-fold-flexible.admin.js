@@ -7,11 +7,6 @@
 		// Check if ACF Flexible Content fields exists at all
 		if ($('.acf-fc-layout-handle').length) {
 
-			// Fold panels initially
-			if($('.layout').data('toggle') == 'open') {
-				$('.layout').data('toggle', 'closed');
-			}
-
 			// Add expand icons for panels
 			$('.acf-fc-layout-handle').prepend('<span class="foldicon foldicon--expand"></span');
 
