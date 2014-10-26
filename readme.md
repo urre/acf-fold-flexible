@@ -30,6 +30,7 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 - [ ] Support new ACF fields
 
 ## Changelog
++ 1.1.0: Better support for both ACF and ACF PRO
 + 1.0.3: Bug fix. Solves panel active states for ACF PRO 5.1.0
 + 1.0.2: Bug fix: the css and javascripts did not load correctly after 4.0. Now fixed.
 + 1.0.1: Added support for fields: Gallery, url and email
