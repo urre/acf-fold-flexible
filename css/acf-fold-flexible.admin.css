@@ -157,30 +157,31 @@
      padding: 6px 12px;
      font-size: .8em;
      text-transform: capitalize;
+     margin-top: -12px;
  }
 
  #tooltip:after {
      width: 0;
      height: 0;
-     border-left: 10px solid transparent;
-     border-right: 10px solid transparent;
+     border-left: 6px solid transparent;
+     border-right: 6px solid transparent;
      border-top: 10px solid #298CBA;
      content: '';
      position: absolute;
      left: 50%;
-     bottom: -10px;
-     margin-left: -10px;
+     bottom: -6px;
+     margin-left: -6px;
  }
 
  #tooltip.top:after {
      border-top-color: transparent;
-     border-bottom: 10px solid #298CBA;
+     border-bottom: 6px solid #298CBA;
      top: -20px;
      bottom: auto;
  }
 
  #tooltip.left:after {
-     left: 10px;
+     left: 6px;
      margin: 0;
  }
 

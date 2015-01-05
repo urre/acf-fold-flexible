@@ -25,11 +25,12 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 
 ## Todo
 - [x] Support for Advanced Custom Fields PRO
+- [x] Change tooltip when fieldgroup is expanded
 - [ ] Fix so icons line up in the same order as the fields inside
-- [ ] Change tooltip when fieldgroup is expanded
 - [ ] Support new ACF fields
 
 ## Changelog
++ 1.1.1: Minor tooltip adjustment. Smaller arrow and moved it a bit above the Field Group toggle list.
 + 1.1.0: Better support for both ACF and ACF PRO
 + 1.0.3: Bug fix. Solves panel active states for ACF PRO 5.1.0
 + 1.0.2: Bug fix: the css and javascripts did not load correctly after 4.0. Now fixed.
