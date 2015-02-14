@@ -148,7 +148,7 @@
  * Tooltip
  */
 
- #tooltip {
+ .tooltip {
      text-align: center;
      color: #fff;
      background-color: #298CBA;
@@ -160,7 +160,7 @@
      margin-top: -12px;
  }
 
- #tooltip:after {
+ .tooltip:after {
      width: 0;
      height: 0;
      border-left: 6px solid transparent;
@@ -173,19 +173,19 @@
      margin-left: -6px;
  }
 
- #tooltip.top:after {
+ .tooltip.top:after {
      border-top-color: transparent;
      border-bottom: 6px solid #298CBA;
      top: -20px;
      bottom: auto;
  }
 
- #tooltip.left:after {
+ .tooltip.left:after {
      left: 6px;
      margin: 0;
  }
 
- #tooltip.right:after {
+ .tooltip.right:after {
      right: 10px;
      left: auto;
      margin: 0;
