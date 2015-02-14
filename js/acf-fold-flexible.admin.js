@@ -10,7 +10,7 @@
 			// Add expand icons for panels
 			$('.acf-fc-layout-handle').prepend('<span class="foldicon foldicon--expand"></span');
 
-			// Add Daschicons depending on ACF Flexible COotent field types
+			// Add Daschicons depending on ACF Flexible Content Field types
 			var labels = $('.acf-fc-layout-handle');
 
 			// Check every panel
@@ -18,15 +18,13 @@
 
 				// Check open/closed state
 				if($(this).parent().attr("data-toggle")) {
-					if($(this).parent().attr("data-toggle") === 'open') {
+					if($(this).parent().attr("data-toggle") !== 'open') {
 						$(this).addClass('open');
 					} else {
-
+						$(this).removeClass('open');
+						$(this).next().css('display', 'none');
+						$(this).parent().attr('data-toggle', 'closed');
 					}
-				} else {
-					$(this).removeClass('open');
-					$(this).next().css('display', 'none');
-					$(this).parent().attr('data-toggle', 'closed');
 				}
 
 				// This very field type group
@@ -93,7 +91,7 @@
 			});
 
 			// Open/Close panels
-			$('.acf-fc-layout-handle').on('click', function() {
+			$('.acf-postbox').on('click', '.acf-fc-layout-handle', function() {
 				var toggle_list = $(this);
 				if(toggle_list.parent().attr("data-toggle") === 'open') {
 					toggle_list.removeClass('open');
