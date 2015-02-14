@@ -3,8 +3,8 @@ Contributors: urre
 Donate link: http://urre.me/donate
 Tags: fields, acf, advanced custom fields, custom fields, collapse, expand, multiple, acfpro, PRO
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.1.1
+Tested up to: 4.1
+Stable tag: 1.1.2
 
 A simple plugin for enhancing the ACF Flexible Content Field. Collapsed flexible content panels with helping icons representing each field types inside.
 
@@ -32,6 +32,9 @@ Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do 
 1. ACF Fold Flexible Content
 
 == Changelog ==
+
+= 1.1.2 =
+Fixed an issue were newly added field layouts did not get icon tooltips. Also fixed so newly added don't always stay blue, not until clicked.
 
 = 1.1.1 =
 Minor tooltip adjustment. Smaller arrow and moved it a bit above the Field Group toggle list.

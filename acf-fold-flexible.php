@@ -3,14 +3,14 @@
 Plugin Name: ACF Fold Flexible Content
 Plugin URI: https://github.com/urre/acf-fold-flexible
 Description: A simple plugin for enhancing the Advanced Custom Fields Flexible Content Field. Shows collapsed panels initially, and representing icons for each field type.
-Version: 1.1.1
+Version: 1.1.2
 Author: Urban Sanden
 Author URI: http://urre.me
 Author Email: hej@urre.me
 License: GPL2
 */
 
-/*  Copyright 2104 Urban Sanden (email: hej@urre.me)
+/*  Copyright 2015 Urban Sanden (email: hej@urre.me)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as

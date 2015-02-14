@@ -23,13 +23,8 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 ## Uninstall
 1. Deactivate plugin
 
-## Todo
-- [x] Support for Advanced Custom Fields PRO
-- [x] Change tooltip when fieldgroup is expanded
-- [ ] Fix so icons line up in the same order as the fields inside
-- [ ] Support new ACF fields
-
 ## Changelog
++ 1.1.2: Fixed an issue were newly added field layouts did not get icon tooltips. Also fixed so newly added don't always stay blue, not until clicked.
 + 1.1.1: Minor tooltip adjustment. Smaller arrow and moved it a bit above the Field Group toggle list.
 + 1.1.0: Better support for both ACF and ACF PRO
 + 1.0.3: Bug fix. Solves panel active states for ACF PRO 5.1.0
@@ -38,3 +33,9 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 + 1.0: No longer beta. Added Support for Advanced Custom Fields PRO
 + 0.15: Field type tooltips: replace underscores with spaces
 + 0.1: First version released
+
+## Todo
+- [x] Support for Advanced Custom Fields PRO
+- [x] Change tooltip when fieldgroup is expanded
+- [ ] Fix so icons line up in the same order as the fields inside
+- [ ] Support new ACF fields
