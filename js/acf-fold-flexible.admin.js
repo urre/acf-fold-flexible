@@ -22,7 +22,6 @@
 						$(this).addClass('open');
 					} else {
 						$(this).removeClass('open');
-						$(this).next().css('display', 'none');
 						$(this).parent().attr('data-toggle', 'closed');
 					}
 				}
