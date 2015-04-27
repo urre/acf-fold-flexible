@@ -24,6 +24,7 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 1. Deactivate plugin
 
 ## Changelog
++ 1.1.3: Fixed an issue were the tooltips didn't work like expected on regular ACF. ACF Pro was fine. Now both!
 + 1.1.2: Fixed an issue were newly added field layouts did not get icon tooltips. Also fixed so newly added don't always stay blue, not until clicked.
 + 1.1.1: Minor tooltip adjustment. Smaller arrow and moved it a bit above the Field Group toggle list.
 + 1.1.0: Better support for both ACF and ACF PRO
