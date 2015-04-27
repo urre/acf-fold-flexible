@@ -7,7 +7,7 @@
             tooltip = false,
             title = false;
 
-        $('.acf-postbox').on('mouseenter', '[rel~=tooltip]', function() {
+        $('.acf-postbox, .acf_postbox').on('mouseenter', '[rel~=tooltip]', function() {
             target = $(this);
             tip = target.attr('title');
             tooltip = $('<div class="tooltip"></div>');
