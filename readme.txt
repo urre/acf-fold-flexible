@@ -4,7 +4,7 @@ Donate link: http://urre.me/donate
 Tags: fields, acf, advanced custom fields, custom fields, collapse, expand, multiple, acfpro, PRO
 Requires at least: 3.0
 Tested up to: 4.2.2
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 
 A simple plugin for enhancing the ACF Flexible Content Field. Collapsed flexible content panels with helping icons representing each field types inside.
 
@@ -32,6 +32,9 @@ Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do 
 1. ACF Fold Flexible Content
 
 == Changelog ==
+
+= 1.1.4 =
+Fixed an issue were the tooltips didn't work together with Gravity forms.
 
 = 1.1.3 =
 Fixed an issue were the tooltips didn't work like expected on regular ACF. ACF Pro was fine. Now both!
