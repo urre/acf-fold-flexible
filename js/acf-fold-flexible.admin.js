@@ -16,16 +16,6 @@
 			// Check every panel
 			labels.each(function() {
 
-				// Check open/closed state
-				if($(this).parent().attr("data-toggle")) {
-					if($(this).parent().attr("data-toggle") !== 'open') {
-						$(this).addClass('open');
-					} else {
-						$(this).removeClass('open');
-						$(this).parent().attr('data-toggle', 'closed');
-					}
-				}
-
 				// This very field type group
 				var group = $(this);
 
