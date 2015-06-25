@@ -33,6 +33,12 @@ Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do 
 
 == Changelog ==
 
+= 1.1.6 =
+Fold everything from start. No longer check open/closed state. Better support for ACF Pro.
+
+= 1.1.5 =
+No longer check open/closed state
+
 = 1.1.4 =
 Fixed an issue were the tooltips didn't work together with Gravity forms.
 

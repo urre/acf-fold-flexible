@@ -4,6 +4,13 @@
 
 	$(function() {
 
+		var acfpro = false;
+
+		// Detect ACF Pro
+		if($("#acf-pro-input-css").length) {
+			acfpro = true;
+		}
+
 		// Check if ACF Flexible Content fields exists at all
 		if ($('.acf-fc-layout-handle').length) {
 
@@ -15,6 +22,16 @@
 
 			// Check every panel
 			labels.each(function() {
+
+				// Fold everything
+				$(this).removeClass('open');
+				$(this).parent().attr('data-toggle', 'closed');
+				
+				if(acfpro) {
+					$(this).nextAll('.row-layout').first().hide();
+				} else {
+					$(this).nextAll('.row_layout').first().hide();
+				}
 
 				// This very field type group
 				var group = $(this);
@@ -80,13 +97,26 @@
 			});
 
 			// Open/Close panels
-			$('.acf-postbox').on('click', '.acf-fc-layout-handle', function() {
+			$(document).on('click', '.acf-fc-layout-handle', function() {
+
 				var toggle_list = $(this);
-				if(toggle_list.parent().attr("data-toggle") === 'open') {
-					toggle_list.removeClass('open');
+
+				// Toggle open class
+				if(acfpro) {
+					if($(this).next().next('.row-layout').css("display") == "none") {
+						toggle_list.removeClass('open');
+					} else {
+						toggle_list.addClass('open');
+					}
 				} else {
-					toggle_list.addClass('open');
+					if($(this).next('.row_layout').css("display") == "none") {
+						toggle_list.removeClass('open');
+					} else {
+						toggle_list.addClass('open');
+					}
+
 				}
+
 			});
 
 		}

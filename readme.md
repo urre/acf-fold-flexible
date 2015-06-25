@@ -24,6 +24,8 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 1. Deactivate plugin
 
 ## Changelog
++ 1.1.6: Fold everything from start. No longer check open/closed state. Better support for ACF Pro.
++ 1.1.5: No longer check open/closed state
 + 1.1.4: Fixed an issue were the tooltips didn't work together with Gravity forms.
 + 1.1.3: Fixed an issue were the tooltips didn't work like expected on regular ACF. ACF Pro was fine. Now both!
 + 1.1.2: Fixed an issue were newly added field layouts did not get icon tooltips. Also fixed so newly added don't always stay blue, not until clicked.
