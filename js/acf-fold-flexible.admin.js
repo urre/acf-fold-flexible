@@ -28,7 +28,7 @@
 				$(this).parent().attr('data-toggle', 'closed');
 				
 				if(acfpro) {
-					$(this).nextAll('.row-layout').first().hide();
+					$(this).nextAll('.acf-fields').first().hide();
 				} else {
 					$(this).nextAll('.row_layout').first().hide();
 				}
@@ -103,10 +103,12 @@
 
 				// Toggle open class
 				if(acfpro) {
-					if($(this).next().next('.row-layout').css("display") == "none") {
-						toggle_list.removeClass('open');
-					} else {
+					if($(this).next().next('.acf-fields').css("display") == "none") {
 						toggle_list.addClass('open');
+						$(this).next().next('.acf-fields').show();
+					} else {
+						toggle_list.removeClass('open');
+						$(this).next().next('.acf-fields').hide();
 					}
 				} else {
 					if($(this).next('.row_layout').css("display") == "none") {
