@@ -23,13 +23,10 @@
 			// Check every panel
 			labels.each(function() {
 
-				// Fold everything
-				$(this).removeClass('open');
-				$(this).parent().attr('data-toggle', 'closed');
-				
-				if(acfpro) {
-					$(this).nextAll('.acf-fields').first().hide();
-				} else {
+				// Fold everything on non ACF Pro
+				if(!acfpro) {
+					$(this).removeClass('open');
+					$(this).parent().attr('data-toggle', 'closed');
 					$(this).nextAll('.row_layout').first().hide();
 				}
 
@@ -96,6 +93,22 @@
 
 			});
 
+			
+			// Toggle handle open/closed on the native collapser on ACF PRO (released in 5.3.1)
+			$(document).on('click', '*[data-event="collapse-layout"]', function(e) {
+
+				var nativeCollapser = $(this);
+
+				if(!nativeCollapser.parent().parent().parent().hasClass('-collapsed') ) {
+					nativeCollapser.parent().parent().parent().find('.acf-fc-layout-handle').addClass('open');
+				} else {
+					nativeCollapser.parent().parent().parent().find('.acf-fc-layout-handle').removeClass('open');
+				}
+
+				e.preventDefault();
+
+			});
+
 			// Open/Close panels
 			$(document).on('click', '.acf-fc-layout-handle', function() {
 
@@ -103,12 +116,12 @@
 
 				// Toggle open class
 				if(acfpro) {
-					if($(this).next().next('.acf-fields').css("display") == "none") {
+					if(!$(this).parent().hasClass('-collapsed') ) {
 						toggle_list.addClass('open');
-						$(this).next().next('.acf-fields').show();
+						// $(this).next().next('.acf-fields').show();
 					} else {
 						toggle_list.removeClass('open');
-						$(this).next().next('.acf-fields').hide();
+						// $(this).next().next('.acf-fields').hide();
 					}
 				} else {
 					if($(this).next('.row_layout').css("display") == "none") {

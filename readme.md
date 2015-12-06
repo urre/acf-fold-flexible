@@ -24,6 +24,7 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 1. Deactivate plugin
 
 ## Changelog
++ 1.2.0: Added support for the native toggle icons to show layout open/close state released in ACF PRO 5.3.1.
 + 1.1.7: Support for ACF PRO 5.3.2.2
 + 1.1.6: Fold everything from start. No longer check open/closed state. Better support for ACF Pro.
 + 1.1.5: No longer check open/closed state
