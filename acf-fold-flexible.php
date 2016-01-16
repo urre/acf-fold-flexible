@@ -7,10 +7,12 @@ Version: 1.2.0
 Author: Urban Sanden
 Author URI: http://urre.me
 Author Email: hej@urre.me
+Donate link: https://www.paypal.me/urbansanden
+Tags: acf, folding, flexible, content, fields, field
 License: GPL2
 */
 
-/*  Copyright 2015 Urban Sanden (email: hej@urre.me)
+/*  Copyright 2016 Urban Sanden (email: hej@urre.me)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as
