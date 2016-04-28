@@ -35,26 +35,39 @@
 				var fields = [];
 
 				// Add corresponding icons
-				$.each( $("table.widefat.acf_input tr"), function() {
+				if(!acfpro) {
+					$.each( $("table.widefat.acf_input tr"), function() {				
 
-					var fieldtype = $.grep(this.className.split(" "), function(v, i){
-					       return v.indexOf('field_type-') === 0;
-					   }).join().replace('field_type-','');
+						var fieldtype = $.grep(this.className.split(" "), function(v, i){
+							return v.indexOf('field_type-') === 0;
+						}).join().replace('field_type-','');
 
-					if($.inArray(fieldtype, fields) === -1) {
-						fields.push(fieldtype);
-						if(acfpro) {
-							group.append('<i rel="tooltip" title="' + fieldtype + '_acfpro" class="foldicon foldicon--' + fieldtype + '_acfpro"></i>');	
-						} else {
+						if($.inArray(fieldtype, fields) === -1) {
+							fields.push(fieldtype);
 							group.append('<i rel="tooltip" title="' + fieldtype + '" class="foldicon foldicon--' + fieldtype + '"></i>');
 						}
+
+					});
+
+					} else {
+						$.each( $(".acf-fields .acf-field"), function() {
+
+							var fieldtype = $.grep(this.className.split(" "), function(v, i){
+								return v.indexOf('acf-field-') === 0;
+							}).join().replace('acf-field-','');
+
+							var fieldtype_pro = fieldtype.substr(0, fieldtype.indexOf(',')).replace('_acfpro', '');
+
+							if($.inArray(fieldtype_pro, fields) === -1) {
+								fields.push(fieldtype_pro);
+								group.append('<i rel="tooltip" title="' + fieldtype_pro +'" class="foldicon foldicon--' + fieldtype_pro + '"></i>');	
+							}
+
+						});
 					}
-					 
-				});
 
 			});
 
-			
 			// Toggle handle open/closed on the native collapser on ACF PRO (released in 5.3.1)
 			$(document).on('click', '*[data-event="collapse-layout"]', function(e) {
 

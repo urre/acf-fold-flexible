@@ -24,6 +24,7 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 1. Deactivate plugin
 
 ## Changelog
++ 1.3.1: Added support and match markup changes for the latest ACF PRO.
 + 1.3.0: Icons now line up in the same order that the is placed in the Flexible Field group.
 + 1.2.0: Added support for the native toggle icons to show layout open/close state released in ACF PRO 5.3.1.
 + 1.1.7: Support for ACF PRO 5.3.2.2
