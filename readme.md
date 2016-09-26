@@ -4,8 +4,6 @@ A simple plugin for enhancing the [Advanced Custom Fields Flexible Content Field
 
 ![Screenshot](https://raw.github.com/urre/acf-fold-flexible/master/screenshot-1.png)
 
-![Gif](https://dl.dropboxusercontent.com/u/1162759/acf-fold-flexible.gif)
-
 ## Features
 + Better overview of Flexible Content Fields layout panels
 + Collapsed flexible content layouts initially

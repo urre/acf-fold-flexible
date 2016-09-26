@@ -12,7 +12,7 @@ Tags: acf, folding, flexible, content, fields, field
 License: GPL2
 */
 
-/*  Copyright 2016 Urban Sanden (email: hej@urre.me)
+/**  Copyright 2016 Urban Sanden (email: hej@urre.me)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as
@@ -26,7 +26,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
+ */
 
 /**
  * Class ACFFoldFlexible
@@ -58,12 +58,10 @@ class ACFFoldFlexible {
 	public function register_admin_scripts() {
 
 		if ( is_plugin_active( 'advanced-custom-fields-pro/acf.php' ) ) {
-			wp_enqueue_script( 'acffoldflexible-adminpro-script', plugins_url( 'acf-fold-flexible-content/js/acf-fold-flexible.admin.pro.js' ), array( 'jquery' ) );    
+			wp_enqueue_script( 'acffoldflexible-adminpro-script', plugins_url( 'acf-fold-flexible-content/js/acf-fold-flexible.admin.pro.js' ), array( 'jquery' ) );
 		} else {
-			wp_enqueue_script( 'acffoldflexible-admin-script', plugins_url( 'acf-fold-flexible-content/js/acf-fold-flexible.admin.js' ), array('jquery') ); 	
+			wp_enqueue_script( 'acffoldflexible-admin-script', plugins_url( 'acf-fold-flexible-content/js/acf-fold-flexible.admin.js' ), array( 'jquery' ) );
 		}
-
-	
 		wp_enqueue_script( 'acffoldflexible-tooltip', plugins_url( 'acf-fold-flexible-content/js/acf-fold-flexible.tooltip.js' ), array( 'jquery' ) );
 
 	}
