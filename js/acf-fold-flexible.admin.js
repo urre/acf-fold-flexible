@@ -4,14 +4,6 @@
 
 	var ACFFoldFlexibleContent = {
 
-		// elements: {
-
-		// },
-
-		// settings: {
-			
-		// },
-
 	        init: function() {
 
 	            // Add icons

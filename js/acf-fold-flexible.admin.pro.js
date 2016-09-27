@@ -97,14 +97,12 @@
 	    	ACFFoldFlexibleContent_pro.init();
 	    });
 
-        $( document ).ajaxComplete(function() {
+        $(document).ajaxComplete(function() {
     		ACFFoldFlexibleContent_pro.addIcons();
-    		console.log('ajax complete');
         });
 
         $(window).load(function() {
         	ACFFoldFlexibleContent_pro.addIcons();
-        	console.log('on load');
         });
 
 	}(jQuery));
