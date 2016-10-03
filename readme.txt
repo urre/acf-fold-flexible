@@ -4,9 +4,9 @@ Donate link: https://www.paypal.me/urbansanden
 Tags: fields, acf, advanced custom fields, custom fields, collapse, expand, multiple, acfpro, PRO
 Requires at least: 3.0
 Tested up to: 4.6.1
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 
-A simple plugin for enhancing the ACF Flexible Content Field. Collapsed flexible content panels with helping icons representing each field types inside.
+A simple plugin for enhancing the ACF Flexible Content Field. Collapsed flexible content panels with helping icons.
 
 == Description ==
 
@@ -34,7 +34,7 @@ Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do 
 == Changelog ==
 
 = 1.4.0 =
-Added support for the latest version of ACF PRO
+Added support for the latest versions of ACF PRO. 
 
 = 1.3.1 =
 Added support and match markup changes for the latest ACF PRO.
