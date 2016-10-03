@@ -33,6 +33,9 @@ Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do 
 
 == Changelog ==
 
+= 1.4.1 =
+Minor
+
 = 1.4.0 =
 Added support for the latest versions of ACF PRO. 
 
